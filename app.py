@@ -12,9 +12,9 @@ def returnPred():
     q = str(request.args['query'])
     d = {}
     if(q[0]=="0"):
-        input  = q[:-2]
-        answer = [[float(i) for i in input.split(',')]]
-        model = joblib.load('./modelLogistic.joblib')
+#         input  = q[:-2]
+#         answer = [[float(i) for i in input.split(',')]]
+#         model = joblib.load('./modelLogistic.joblib')
     
         
         
